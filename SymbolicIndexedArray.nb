@@ -473,41 +473,6 @@ Cell["Display the matrix in different forms:", "Text",
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Apply", "[", 
-  RowBox[{"f", ",", "a"}], "]"}]], "Input",
- CellChangeTimes->{{3.867172216733698*^9, 3.86717221947471*^9}},
- CellLabel->"In[13]:=",
- CellID->416220929,ExpressionUUID->"d47b97e5-d565-4d09-b665-10855f82b9a5"],
-
-Cell[BoxData["a"], "Output",
- CellChangeTimes->{3.867172219850695*^9},
- CellLabel->"Out[13]=",
- CellID->566985980,ExpressionUUID->"26b85c1e-4bd0-4cf1-80be-489fb9e5f60b"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"f", "@*", "a"}], "==", 
-   RowBox[{"f", "[", "a", "]"}]}], "//", "T"}]], "Input",
- CellChangeTimes->{{3.8671722706287875`*^9, 3.8671722766297913`*^9}},
- CellLabel->"In[16]:=",
- CellID->143437714,ExpressionUUID->"60353cdc-a406-459e-9d94-9748939103a2"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"f", "@*", "a"}], "\[Equal]", 
-  RowBox[{"f", "[", "a", "]"}]}]], "Output",
- CellChangeTimes->{3.867172272405794*^9},
- CellLabel->"Out[16]=",
- CellID->267829835,ExpressionUUID->"46c8d9c5-0882-4083-9721-a09b3cd721cf"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
  RowBox[{"AssociationMap", "[", 
   RowBox[{
    RowBox[{
@@ -1639,7 +1604,6 @@ Cell[BoxData[
          StyleBox[
           TemplateBox[{
             CheckboxBox["WebEvaluation", {False, "WebEvaluation"}], "\" \"", 
-            
             TemplateBox[{
              "\"WebEvaluation\"", 
               "\"Cloud evaluation initiated by an HTTP request\""}, 
